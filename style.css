@@ -158,8 +158,8 @@ section div #campo {
 
 @media(max-width: 600px) {
     #imagens img#meninas {
-        width: 160px;
-        height: 90px;
+        width: 220px;
+        height:110px;
     }
 
 }
@@ -206,7 +206,7 @@ section div #treinadora {
 
 @media(max-width: 488px) {
  section div #treinadora{
-     width: 62px;
+     width: 63px;
      
 }
 
