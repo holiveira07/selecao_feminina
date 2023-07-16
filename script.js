@@ -7,19 +7,19 @@ let  img    = document.getElementById("meninas");
 
 goleira.addEventListener ("click", function() {
    
-   img.src = 'goleiras.png'
+   img.src = './img/goleiras.png'
 });
 
 defesa.addEventListener("click", function(){
-    img.src = 'defensoras.png'
+    img.src = './img/defensoras.png'
 });
 
 meia.addEventListener("click", function(){
-    img.src = 'meia.png'
+    img.src = './img/meia.png'
 });
 
 ataque.addEventListener("click", function(){
-   img.src = 'atacantes.png'
+   img.src = './img/atacantes.png'
 });
 
 
@@ -31,19 +31,19 @@ let  img2    = document.getElementById("meninas");
 
 goleira2.addEventListener ("click", function() {
    
-   img.src = 'goleiras.png'
+   img.src = './img/goleiras.png'
 });
 
 defesa2.addEventListener("click", function(){
-    img.src = 'defensoras.png'
+    img.src = './img/defensoras.png'
 });
 
 meia2.addEventListener("click", function(){
-    img.src = 'meia.png'
+    img.src = './img/meia.png'
 });
 
 ataque2.addEventListener("click", function(){
-   img.src = 'atacantes.png'
+   img.src = './img/atacantes.png'
 });
 
 
