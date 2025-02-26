@@ -1,53 +1,25 @@
-/* PRIMEIRA TROCA DE  IMAGEM */
-let goleira = document.getElementById("goleira");
-let defesa  = document.getElementById("defesa");
-let  meia   = document.getElementById("meia");
-let ataque  = document.getElementById("ataque")
-let  img    = document.getElementById("meninas");
+/**
+ * PRIMEIRA TROCA DE  IMAGEM
+ *
+ * @format
+ */
 
-goleira.addEventListener ("click", function() {
-   
-   img.src = './img/goleiras.png'
+const botoes = document.querySelectorAll(".btn-selecao, .btn2-selecao");
+
+const imagens = {
+	goleira: "./img/goleiras.png",
+	defesa: "./img/defensoras.png",
+	meia: "./img/meia.png",
+	ataque: "./img/atacantes.png",
+};
+
+const img = document.getElementById("meninas");
+
+botoes.forEach((botao) => {
+	botao.addEventListener("click", ({ target }) => {
+		const id = target.id.replace("2", "");
+		if (imagens[id]) {
+			img.src = imagens[id];
+		}
+	});
 });
-
-defesa.addEventListener("click", function(){
-    img.src = './img/defensoras.png'
-});
-
-meia.addEventListener("click", function(){
-    img.src = './img/meia.png'
-});
-
-ataque.addEventListener("click", function(){
-   img.src = './img/atacantes.png'
-});
-
-
-let goleira2 = document.getElementById("goleira2");
-let defesa2  = document.getElementById("defesa2");
-let  meia2   = document.getElementById("meia2");
-let ataque2  = document.getElementById("ataque2")
-let  img2    = document.getElementById("meninas");
-
-goleira2.addEventListener ("click", function() {
-   
-   img.src = './img/goleiras.png'
-});
-
-defesa2.addEventListener("click", function(){
-    img.src = './img/defensoras.png'
-});
-
-meia2.addEventListener("click", function(){
-    img.src = './img/meia.png'
-});
-
-ataque2.addEventListener("click", function(){
-   img.src = './img/atacantes.png'
-});
-
-
-
-
-
-

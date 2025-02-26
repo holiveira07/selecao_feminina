@@ -1,20 +1,35 @@
-# selecao_feminina
+<!-- @format -->
 
-Sou um novato na área de tecnologia e tenho me dedicado dia a pois dia para aprender cada vez mais.
-Esse projeto faz parte do meu estudo que aqui está focado na criação de arrow functions e addEventListeners.
+# Seleção Brasileira Feminina ⚽🇧🇷
 
-O que foi criado ? 
+Este projeto é um estudo de interatividade com JavaScript, onde é possível visualizar jogadoras
+da Seleção Brasileira Feminina de Futebol ao clicar nos botões correspondentes às suas respctivas posições.
 
-Criamos um programa que contem alguns eventos de click nos Butons e que quando clicado mostra seus respectivos conteúdos.
+## 🔥 Funcionalidades
 
-Ex.  
-    Quando o botão das atacantes é clicado aparece sobre o campo, no centro da tela as atacantes convocadas.
+- Exibição das jogadoras conforme a posição (Goleiras, Defensoras, Meio-Campistas e Atacantes).
+- Design responsivo para diferentes tamanhos de tela.
+- Código limpo e organizado.
+-
 
-E assim acontece com os demais botões: Meio-Campistas, Defendoras e Goleiras.
+## 💻 Tecnologias Utilizadas
 
-Por aqui eu sigo treinando assim como as nossas craques da seleção feminina de futebol.
+- HTML5
+- CSS3
+- JavaScript (DOM Manipulation)
 
-Brasil.. sil.. sil...
+## 🚀 Como Executar
 
-Forte abraço.
+Clone o repositório:
 
+```bash
+git clone https://github.com/holiveira07/selecao_feminina.git
+```
+
+Abra o arquivo index.html no navegador.
+
+## 📷 Imagens do Projeto
+
+![Descrição da imagem](./img/imagem_tela_grande.png)
+![Descrição da imagem](./img/imagem_tela_media.png)
+![Descrição da imagem](./img/imagem_tela_pequena.png)
