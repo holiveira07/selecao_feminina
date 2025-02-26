@@ -33,3 +33,10 @@ Abra o arquivo index.html no navegador.
 ![Descrição da imagem](./img/imagem_tela_grande.png)
 ![Descrição da imagem](./img/imagem_tela_media.png)
 ![Descrição da imagem](./img/imagem_tela_pequena.png)
+
+# 📌 Aprendizados
+- Manipulação do DOM com addEventListener.
+- Uso de querySelectorAll para otimizar eventos.
+- Aplicação de media queries para responsividade.
+  
+ ### Se você gostou do projeto, deixe uma ⭐ no repositório!
